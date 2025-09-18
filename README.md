@@ -57,8 +57,10 @@ USE gestao_ouvidoria;
 
 CREATE TABLE ouvidoriaBD (
     id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(50),
     tipo VARCHAR(50),
-    descricao TEXT
+    assunto VARCHAR(50),
+    manifestacao VARCHAR(100),
+    respondente VARCHAR(50),
+    primary key(codigo)
 );
-✍️ Contribuições
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
