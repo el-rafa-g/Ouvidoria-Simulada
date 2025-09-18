@@ -55,7 +55,7 @@ CREATE DATABASE gestao_ouvidoria;
 
 USE gestao_ouvidoria;
 
-CREATE TABLE manifestacoes (
+CREATE TABLE ouvidoriaBD (
     id INT AUTO_INCREMENT PRIMARY KEY,
     tipo VARCHAR(50),
     descricao TEXT
