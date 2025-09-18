@@ -1,4 +1,5 @@
 # 📣 Sistema de Gestão de Manifestações (Ouvidoria)
+# Sistema feito por Evandro Bezerra, Matheus Rodrigues, e Rafael Galdino
 
 Este é um sistema simples de **Ouvidoria** desenvolvido em **Python** com conexão a banco de dados **MySQL**. Ele permite listar, adicionar, pesquisar, remover e editar manifestações de usuários.
 
@@ -6,13 +7,13 @@ Este é um sistema simples de **Ouvidoria** desenvolvido em **Python** com conex
 
 - **Listar manifestações**  
 - **Adicionar uma nova manifestação**  
-- **Pesquisar manifestações por termos**  
+- **Pesquisar manifestações**  
 - **Remover manifestações**  
 - **Editar/substituir manifestações existentes**
 
 ## 🛠️ Tecnologias utilizadas
 
-- Python 3.x
+- Python 3.13.7
 - MySQL
 - Biblioteca `mysql.connector` (via `operacoesbd.py`)
 
